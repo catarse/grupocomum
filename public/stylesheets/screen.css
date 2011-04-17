@@ -66,7 +66,7 @@ a img {
 
 /* line 8, ../../app/stylesheets/screen.sass */
 body#site {
-  background: #333333;
+  background: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: lighter;
   font-size: 24px;
@@ -81,47 +81,63 @@ body#site a {
   text-decoration: none;
   color: #84b457;
 }
-/* line 21, ../../app/stylesheets/screen.sass */
+/* line 20, ../../app/stylesheets/screen.sass */
+body#site #main #header_wrapper {
+  background: #333333;
+}
+/* line 22, ../../app/stylesheets/screen.sass */
 body#site #main #header_wrapper #header {
   height: 20px;
   width: 980px;
   margin: 0 auto;
 }
-/* line 25, ../../app/stylesheets/screen.sass */
+/* line 26, ../../app/stylesheets/screen.sass */
 body#site #main #content_wrapper {
   background: white;
 }
-/* line 27, ../../app/stylesheets/screen.sass */
+/* line 28, ../../app/stylesheets/screen.sass */
 body#site #main #content_wrapper #content {
   width: 980px;
-  margin: 0 auto;
+  height: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -350px;
+  margin-left: -490px;
   padding: 40px 0;
 }
-/* line 32, ../../app/stylesheets/screen.sass */
+/* line 38, ../../app/stylesheets/screen.sass */
 body#site #main #content_wrapper #content #index .text {
   width: 480px;
   float: left;
 }
-/* line 35, ../../app/stylesheets/screen.sass */
+/* line 41, ../../app/stylesheets/screen.sass */
 body#site #main #content_wrapper #content #index .graph {
   float: right;
 }
-/* line 38, ../../app/stylesheets/screen.sass */
+/* line 43, ../../app/stylesheets/screen.sass */
+body#site #main #footer_wrapper {
+  background: #333333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+}
+/* line 49, ../../app/stylesheets/screen.sass */
 body#site #main #footer_wrapper #footer {
   width: 980px;
   margin: 0 auto;
-  padding: 20px 0;
 }
-/* line 42, ../../app/stylesheets/screen.sass */
+/* line 52, ../../app/stylesheets/screen.sass */
 body#site #main #footer_wrapper #footer img {
   vertical-align: middle;
   margin-left: 20px;
 }
-/* line 45, ../../app/stylesheets/screen.sass */
+/* line 55, ../../app/stylesheets/screen.sass */
 body#site #main #footer_wrapper #footer .contact {
   float: left;
 }
-/* line 47, ../../app/stylesheets/screen.sass */
+/* line 57, ../../app/stylesheets/screen.sass */
 body#site #main #footer_wrapper #footer .logos {
   float: right;
 }
