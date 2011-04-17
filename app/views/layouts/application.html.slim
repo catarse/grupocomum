@@ -1,0 +1,17 @@
+doctype 5
+html lang="pt"
+  = render :partial => 'layouts/head'
+  body#site
+    #main
+      #header_wrapper
+        #header
+      #content_wrapper
+        #content= yield
+      #footer_wrapper
+        #footer
+          .contact= mail_to "contato@comum.cc"
+          .logos
+            = link_to "http://catarse.me", :target => :_blank do
+              = image_tag 'logo_catarse.png'
+            = link_to "http://multidao.art.br", :target => :_blank do
+              = image_tag 'logo_multidao.png'

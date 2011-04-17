@@ -1,0 +1,11 @@
+head
+  meta charset="utf-8"
+  meta name="robots" content="index, follow"
+  meta name="author" content="Softa"
+  = yield :meta_tags
+  title Grupo Comum
+  = stylesheet_link_tag 'screen.css', :media => 'screen, projection'
+  /[if lt IE 9]
+    = javascript_include_tag "http://html5shiv.googlecode.com/svn/trunk/html5.js"
+  = csrf_meta_tag
+  link rel="shortcut icon" href="/images/favicon.ico"
